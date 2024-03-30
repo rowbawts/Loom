@@ -9,7 +9,6 @@ public class DesktopLauncher {
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
 		config.setWindowedMode(1600, 900);
 		config.setForegroundFPS(60);
-		config.setIdleFPS(15);
 		config.useVsync(true);
 		config.setTitle("Loom");
 		new Lwjgl3Application(new Game(), config);
